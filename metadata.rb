@@ -1,6 +1,6 @@
 name 'testgha'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Lynn Caldwell'
+maintainer_email 'lynn.caldwell@bakerhughes.com'
 license 'All Rights Reserved'
 description 'Installs/Configures testgha'
 version '0.1.0'
