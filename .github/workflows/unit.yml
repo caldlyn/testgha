@@ -10,6 +10,6 @@ jobs:
       uses: actions/checkout@master
     - name: install chef
       uses: actionshub/chef-install@main
-    - name: cookstyle
+    - name: rspec
       run: |
         rspec
