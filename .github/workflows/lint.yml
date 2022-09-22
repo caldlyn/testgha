@@ -1,0 +1,15 @@
+name: lint
+
+on: [push, pull_request]
+
+jobs:
+  cookstyle:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@master
+    - name: install chef
+      uses: actionshub/chef-install@main
+    - name: cookstyle
+      run: |
+        cookstyle
