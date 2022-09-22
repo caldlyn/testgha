@@ -3,14 +3,13 @@ name: cookstyle
 on: [push, pull_request]
 
 jobs:
-  delivery:
+  cookstyle:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
       uses: actions/checkout@master
     - name: install chef
       uses: actionshub/chef-install@main
-      with:
-        channel: current
-        project: chef
-    - run: cookstyle
+    - name: cookstyle
+      run: |
+        cookstyle
