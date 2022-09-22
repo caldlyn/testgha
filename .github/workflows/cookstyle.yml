@@ -12,4 +12,5 @@ jobs:
       uses: actionshub/chef-install@main
       with:
         channel: current
-        project: inspec
+        project: chef
+    - run: cookstyle
