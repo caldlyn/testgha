@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@master
     - name: Install Chef
       uses: actionshub/chef-install@main
-    - name: Dokken
+    - name: Kitchen
       uses: actionshub/kitchen-dokken@main
       env:
         suite: ${{ matrix.suite }}

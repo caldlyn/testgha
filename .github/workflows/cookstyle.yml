@@ -1,4 +1,4 @@
-name: inspec
+name: cookstyle
 
 on: [push, pull_request]
 
