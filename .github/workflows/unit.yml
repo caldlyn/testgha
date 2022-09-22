@@ -3,7 +3,7 @@ name: unit
 on: [push, pull_request]
 
 jobs:
-  cookstyle:
+  unit:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
