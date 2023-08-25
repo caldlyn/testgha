@@ -18,6 +18,6 @@ jobs:
         inspec exec .\tests\azinspec.rb -t azure://
     - name: "testing"
       run: |
-        ls
+        ls -l
     
       
